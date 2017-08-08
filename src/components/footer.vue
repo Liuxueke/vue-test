@@ -1,24 +1,24 @@
 <template>
     <div class="footer">
         <ul>
-            <router-link tag="li" to="/">
-                <a>
+            <li>
+                <router-link to="/" exact>
                     <div></div>
                     <p>首页</p>
-                </a>
-            </router-link>
-            <router-link tag="li" to="/list">
-                <a>
+                </router-link>
+            </li>
+            <li>
+                <router-link to="/list" exact>
                     <div></div>
                     <p>理财</p>
-                </a>
-            </router-link>
-            <router-link tag="li" to="/wallet">
-                <a>
+                </router-link>
+            </li>
+            <li>
+                <router-link to="/wallet" exact>
                     <div></div>
                     <p>钱包</p>
-                </a>
-            </router-link>
+                </router-link>
+            </li>
         </ul>
     </div>
 </template>

@@ -1,9 +1,5 @@
 <template>
-    <div class="container">
-        wwwwwww
-        <router-view></router-view>
-        <router-view name="footer"></router-view>
-    </div>
+    <router-view></router-view>
 </template>
 <style>
     @import 'http://10.10.20.240:5570/public/stylesheets/common.css';
